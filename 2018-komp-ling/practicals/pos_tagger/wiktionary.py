@@ -16,36 +16,38 @@ def strip_html(h):
 
 
 
+
 stem = '_'
 zkod = '_'
 ipa = '_'
 h1 = '_'
 
 for line in sys.stdin.readlines():
-    if line.count('<h1>') > 0:
 
+    if line.count('<h1>') > 0:
         h1 = strip_html(line)
 
-        if h1 != 'Русский':
-            continue
+    if h1.strip() != 'Русский':
+        continue
 
-        line = line.strip()
-        text = strip_html(line)
-        print (text)
 
-        if text.count('Корень:') > 0:
+    line = line.strip()
+    text = strip_html(line);
+
+    if text.count('Корень:') > 0:
             stem = text.split(':')[1].strip('.')
-        if text.count('МФА') > 0:
+            if "окончание" in stem:
+                stem = stem.split(";")[0]
+    if text.count('МФА') > 0:
             ipa = text.split('[')[1].split(']')[0]
-        if text.count('тип склонения') > 0:
+    if text.count('тип склонения') > 0:
             zkod = text.split('тип склонения')[1].strip().split(' ')[0]
 
-
-if stem != '_' and zkod != '_' and ipa != '_':
-    print('%s\t%s\t%s' % (stem, zkod, ipa))
-    stem = '_'
-    zkod = '_'
-    ipa = '_'
+    if stem != '_' and zkod != '_' and ipa != '_':
+            print('%s\t%s\t%s' % (stem, zkod, ipa))
+            stem = '_'
+            zkod = '_'
+            ipa = '_'
 
 
 
