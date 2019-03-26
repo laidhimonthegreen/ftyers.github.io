@@ -1,6 +1,3 @@
-
-
-
 import xrenner
 
 x = xrenner.Xrenner(model = "/home/laidhimonthegreen/udpipe/src/UD_Russian-SynTagRus/xrenner/xrenner/models/rus")
