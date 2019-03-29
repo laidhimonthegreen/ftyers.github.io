@@ -3,11 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="3bb54621-fd44-4fd8-86f4-314016d3817a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unigram_model_response.md" beforeDir="false" afterPath="$PROJECT_DIR$/unigram_model-response.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../udpipe_practical/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../udpipe_practical/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../udpipe_practical/coref_pushkin.html" beforeDir="false" afterPath="$PROJECT_DIR$/../udpipe_practical/coref_pushkin.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../udpipe_practical/udpipe_response.md" beforeDir="false" afterPath="$PROJECT_DIR$/../udpipe_practical/udpipe-response.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../unigram_model/unigram_responce.md" beforeDir="false" afterPath="$PROJECT_DIR$/../unigram_model/unigram-responce.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unigram_model-response.md" beforeDir="false" afterPath="$PROJECT_DIR$/unigram_model-response.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../unigram_model/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../unigram_model/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -99,7 +96,7 @@
     <session id="-1867353392">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.opened" value="3" />
@@ -109,25 +106,25 @@
         <counts>
           <entry key="html" value="1" />
           <entry key="md" value="2" />
-          <entry key="py" value="5" />
+          <entry key="py" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="HTML" value="1" />
           <entry key="Markdown" value="2" />
-          <entry key="Python" value="5" />
+          <entry key="Python" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="md" value="278" />
+          <entry key="md" value="326" />
           <entry key="py" value="704" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Markdown" value="278" />
+          <entry key="Markdown" value="326" />
           <entry key="Python" value="704" />
         </counts>
       </usages-collector>
@@ -148,8 +145,8 @@
         <entry file="file://$PROJECT_DIR$/unigram_model-response.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="330">
-                <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+              <first_editor>
+                <caret column="48" selection-start-column="48" selection-end-column="48" />
               </first_editor>
               <second_editor />
             </state>
@@ -183,14 +180,15 @@
         <option value="$PROJECT_DIR$/unigram_model.md" />
         <option value="$PROJECT_DIR$/wiktionary.py" />
         <option value="$PROJECT_DIR$/unigram_model_response.md" />
+        <option value="$PROJECT_DIR$/unigram_model-response.md" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="270" />
-    <option name="y" value="205" />
-    <option name="width" value="1380" />
-    <option name="height" value="680" />
+    <option name="x" value="562" />
+    <option name="y" value="206" />
+    <option name="width" value="1390" />
+    <option name="height" value="1000" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -213,7 +211,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../udpipe_practical" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../unigram_model" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
@@ -454,11 +452,20 @@
     <entry file="file://$PROJECT_DIR$/Figure_1.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/../transliteration/frequency.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/unigram_model-response.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="330">
-            <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+          <first_editor>
+            <caret column="48" selection-start-column="48" selection-end-column="48" />
           </first_editor>
           <second_editor />
         </state>
